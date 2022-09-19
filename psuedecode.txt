@@ -2,10 +2,10 @@ START
 harga order = 0
 WHILE checkout = false:
     WRITE MENU
-    IF tambah makanan :
+    IF PILIH makanan :
         ADD makanan
         harga order = harga order + harga makanan dipilih 
-    ELSE IF tambah minum :
+    ELSE IF PILIH minum :
         ADD Minuman 
         harga order = harga order + harga minuman dipilih
     
