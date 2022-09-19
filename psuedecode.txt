@@ -1,0 +1,16 @@
+START
+harga order = 0
+WHILE checkout = false:
+    WRITE MENU
+    IF tambah makanan :
+        ADD makanan
+        harga order = harga order + harga makanan dipilih 
+    ELSE IF tambah minum :
+        ADD Minuman 
+        harga order = harga order + harga minuman dipilih
+    
+    IF CHECKOUT KLIK
+        WRITE list order
+        CHECKOUT = TRUE
+END WHILE
+END
