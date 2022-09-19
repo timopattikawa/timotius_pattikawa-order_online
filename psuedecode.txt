@@ -11,6 +11,7 @@ WHILE checkout = false:
     
     IF CHECKOUT KLIK
         WRITE list order
+        WRITE harga order
         CHECKOUT = TRUE
 END WHILE
 END
